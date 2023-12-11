@@ -1,0 +1,77 @@
+.my-loyalty-dashboard {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #f4f4f4; /* Neutral background for a professional look */
+    margin: 20px;
+    color: #333; /* Consistent text color */
+    margin-top: -80px;
+}
+
+.dashboard-title {
+    font-size: 2.2em; /* Slightly larger for emphasis */
+    margin-bottom: 40px; /* More space above the first section */
+    color: #4a4a4a; /* Darker color for professional appearance */
+    font-weight: 600; /* Semi-bold font weight */
+    text-align: center; /* Center-align the title */
+}
+
+.dashboard-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Reduced gap for a tighter layout */
+    justify-content: center; /* Center items for better alignment */
+}
+
+.dashboard-item {
+    flex: 1;
+    min-width: 280px; /* Slightly wider for better readability */
+    padding: 25px;
+    border-radius: 12px; /* More pronounced border-radius */
+    background-color: #e6e6e6; /* Lighter shade for a clean look */
+    box-shadow: 0 3px 10px rgba((0, 0, 0, 0.15).15); /* Softer shadow for depth */
+    transition: all 0.3s ease; /* Transition for all properties */
+    align-items: center; /* Align content to the center */
+    text-align: center; /* Center text alignment */
+    justify-content: center;
+}
+
+ 
+
+.dashboard-item label {
+   
+    font-size: 1.1em; /* Increase label size for clarity */
+    color: #5a5a5a; /* Darker color for labels */
+    margin-bottom: 25px; /* Space between label and value */
+    font-weight: 500; /* Medium weight for labels */
+}
+
+.dashboard-item p, .dashboard-item .Counter {
+    margin: 0;
+    padding-top: 30px;
+    font-size: 1.2em; 
+    font-weight: bold; 
+    color: #4a4a4a;  
+}
+
+.dashboard-item p, .dashboard-item .counter-wrapper {
+    padding-top: 20px;
+    font-size: 1.4em; /* Larger font size for visibility */
+    font-weight: bold; /* Bold for emphasis */
+    color: #4a4a4a; /* Darker color for value */
+}
+
+/* Additional styles */
+/* ... */
+
+
+@media (max-width: 768px) {
+    .dashboard-section {
+        justify-content: space-around; /* Adjust alignment for mobile */
+    }
+
+    .dashboard-item {
+        min-width: 100%; /* Full width on smaller screens */
+        margin-bottom: 20px; /* Space between items on smaller screens */
+    }
+}

@@ -1,0 +1,70 @@
+.user-activity-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px auto;
+    max-width: 800px; /* Center and limit the width of the table */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Deeper shadow for more depth */
+    border-radius: 20px; /* More pronounced rounded corners */
+    overflow: hidden; /* Ensure the inner table respects the container's border-radius */
+    margin-top: -80px;
+}
+
+.user-activity-container h2 {
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.user-activity-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-activity-table th,
+.user-activity-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px; /* Increased padding for a more spacious look */
+    text-align: left;
+}
+
+.user-activity-table th {
+    background-color:#d1c8eb; /* Modern blue header */
+    color: white;
+    font-size: 18px; /* Slightly larger font for the header */
+}
+
+.user-activity-table tr {
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.user-activity-table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.user-activity-table tr:hover {
+    background-color: #eeeefe; /* Hover effect for each row */
+}
+
+.loading-message {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color:  #c1b8eb;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #c1b8eb;
+    cursor: default;
+}
