@@ -257,10 +257,10 @@ const App = () => {
                             <p className="claim-points-text">Claim your 5 Loyalty Points now!</p>
                             <div className="social-buttons-container">
                                 <button className="social-button" onClick={() => setButtonOneClicked(true)}>
-                                    {buttonOneClicked ? "Connected" : <><span>Connect</span><img src={twitter} alt="Twitter" /></>}
+                                    {buttonOneClicked ? "Connected" : <><span>Connect</span><img src={twitter} alt="Twitter" className="social-media-icon"/></>}
                                 </button>
                                 <button className="social-button" onClick={() => setButtonTwoClicked(true)}>
-                                    {buttonTwoClicked ? "Connected" : <><span>Connect</span><img src={discord} alt="Discord" /></>}
+                                    {buttonTwoClicked ? "Connected" : <><span>Connect</span><img src={discord} alt="Discord"  className="social-media-icon"/></>}
                                 </button>
                             </div>
                             <button className="claim-button" onClick={handleNewUserAward}>Claim Points</button>
