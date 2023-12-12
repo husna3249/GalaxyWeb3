@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 import TescoABI from '../abi/TescoABI.json';
 import UserStatus from './userStatus.css';
-const userStatus = ({ tescoAddress }) => {
+const usersStatus = ({ tescoAddress }) => {
     const [users, setUsers] = useState({ active: [], loyal: [] });
 
     useEffect(() => {
@@ -69,4 +69,4 @@ const userStatus = ({ tescoAddress }) => {
 
 
 
-export default userStatus;
+export default usersStatus;
